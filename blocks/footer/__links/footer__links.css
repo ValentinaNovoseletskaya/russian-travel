@@ -8,7 +8,7 @@
     margin: 0;
 }
 
-@media (max-width: 320px){
+@media (max-width: 600px){
     .footer__links {
         grid-template-rows: repeat(5, minmax(min-content, max-content));
         grid-template-columns: 100%;

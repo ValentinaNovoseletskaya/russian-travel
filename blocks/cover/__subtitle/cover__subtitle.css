@@ -25,7 +25,14 @@
     }
 }
 
-@media (max-width: 320px){
+@media (min-width: 450px) and (max-width: 692px) {
+    .cover__subtitle {
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 449px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;

@@ -24,8 +24,14 @@
         padding-top: 115px;
     }
 }
-
-@media (max-width: 320px)  {
+@media (min-width: 450px) and (max-width: 692px) {
+    .cover__title {
+        font-size: 60px;
+        line-height: 64px;
+        max-width: 600px;
+    }
+}
+@media (max-width: 449px) {
     .cover__title {
         margin: 0 auto 16px;
         padding-top: 33px;

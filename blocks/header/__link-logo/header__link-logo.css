@@ -1,6 +1,9 @@
 .header__link-logo {
     padding-top: 28px;
+}
 
+.header__link-logo:hover {
+    opacity: 0.8;
 }
 
 @media (max-width: 320px) {
