@@ -1,0 +1,25 @@
+.place__paragraphs {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0;
+    gap: 26px;
+}
+
+@media (max-width: 768px) {
+    .place__paragraphs {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place__paragraphs {
+        padding: 0 16px;
+        line-height: 26px;
+        gap: 25px;
+    }
+}
